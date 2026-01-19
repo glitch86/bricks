@@ -1,0 +1,47 @@
+[
+  {
+    "id": "lego-001",
+    "name": "Mia Brickmother",
+    "role": "City Mother",
+    "description": "Loves building family homes and taking care of her mini LEGO family in the city.",
+    "age": 35,
+    "accessories": ["coffee mug", "baby carrier", "shopping bag"],
+    "imageUrl": "https://img.brickowl.com/files/image_cache/larger/lego-city-people-pack-mother-minifigure-640375.jpg"
+  },
+  {
+    "id": "lego-002",
+    "name": "Max Giant",
+    "role": "Giant Builder",
+    "description": "Tallest LEGO person in town; helps with heavy blocks and big projects.",
+    "age": 28,
+    "accessories": ["hard hat", "brick hammer", "walkie-talkie"],
+    "imageUrl": "https://st5.depositphotos.com/2600215/68576/i/450/depositphotos_685760852-stock-photo-hong-kong-november-giant-man.jpg"
+  },
+  {
+    "id": "lego-003",
+    "name": "Pirate Pete",
+    "role": "Rogue Explorer",
+    "description": "Sea-faring pirate always hunting treasure and new adventures on the high seas.",
+    "age": 40,
+    "accessories": ["eyepatch", "sword", "map"],
+    "imageUrl": "https://www.brickeconomy.com/resources/images/minifigs/pln073_large.jpg"
+  },
+  {
+    "id": "lego-004",
+    "name": "Astronaut Andy",
+    "role": "Space Explorer",
+    "description": "Blast off to distant galaxies hunting stars and new planets.",
+    "age": 32,
+    "accessories": ["helmet", "jetpack", "space scanner"],
+    "imageUrl": "https://i.ebayimg.com/images/g/qHgAAOSwBmllqPY0/s-l1200.jpg"
+  },
+  {
+    "id": "lego-005",
+    "name": "Emmet the Builder",
+    "role": "Master Builder",
+    "description": "A cheerful builder who brings creativity to every construction challenge.",
+    "age": 25,
+    "accessories": ["construction vest", "wrench", "blueprints"],
+    "imageUrl": "https://media.gettyimages.com/id/481968571/photo/emmet-lego-movie-mini-figure-character.jpg?s=612x612&w=gi&k=20&c=KrIdSTGuYSWM4ZiW2vwUqjcGbyzzgnOeZBRzVZWESDw="
+  }
+]

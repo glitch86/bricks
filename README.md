@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## BRICKS - LEGO Community
 
-## Getting Started
-
+Bricks is a modern web application built with **Next.js** that showcases LEGO creations, featured brick characters, and community-built models.  
+The platform focuses on clean UI, smooth horizontal scrolling sections, and a LEGO-inspired visual experience.
 First, run the development server:
 
+Live Demo: https://bricks-sage.vercel.app
+
+## Setup & Installation
+
+- Clone repository
+
 ```bash
+
+git clone https://github.com/your-username/bricks.git
+cd bricks
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Routes
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Products: Listing of all available products.
+- Products/id: Dynamic detail page on specefic products.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Horizontally scrollable Featured Bricks section
 
-To learn more about Next.js, take a look at the following resources:
+- Community showcase with real image data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Reusable card components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- JSON-based data loading from /public
 
-## Deploy on Vercel
+- Smooth scroll & snap scrolling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- DaisyUI component styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Icon-based UI using React Icons
+
+## Feature Explanation
+
+- Featured Bricks
+
+Displays popular LEGO characters using a horizontal scroll layout.
+Data is fetched from a local JSON file using Axios.
+
+- Community Showcase
+
+Shows community-created LEGO builds with images, author names, and descriptions.
+Designed for inspiration and engagement.
+
+- Performance
+
+Optimized for fast loading with static assets and Next.js optimizations.

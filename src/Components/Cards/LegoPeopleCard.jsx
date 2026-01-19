@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function LegoPersonCard({ person }) {
   return (
-    <div className="card bg-base-200 shadow-xl h-full hover:scale-[1.02] transition">
+    <div className="card bg-base-200 shadow-xl h-full hover:scale-[1.02] transition shrink-0">
       {/* Image wrapper (fixed size) */}
       <figure className="h-56 bg-base-300 flex items-center justify-center overflow-hidden">
         <img

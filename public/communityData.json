@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "LEGO Classic Build",
+    "imageUrl": "https://ideascdn.lego.com/media/generate/public/lego_ci/64dee15a-e175-4a05-a193-55a469aea019/resize:1600:900/legacy",
+    "author": "BricksMaster",
+    "description": "A colorful classic build with multiple parts."
+  },
+  {
+    "id": 2,
+    "title": "Modular Archer’s Workshop",
+    "imageUrl": "https://www.brickfanatics.com/wp-content/uploads/2025/01/LEGO-Ideas-Modular-Archers-Workshop-featured.jpeg",
+    "author": "BrickFanatic",
+    "description": "A beautifully detailed modular workshop."
+  },
+  {
+    "id": 3,
+    "title": "Custom Rover Build",
+    "imageUrl": "https://static.wixstatic.com/media/6c1e2e_53dc45a520fc4eaf9c20d90c89563473~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6c1e2e_53dc45a520fc4eaf9c20d90c89563473~mv2.jpg",
+    "author": "SpaceBrick",
+    "description": "A rugged space rover built with precision."
+  },
+  {
+    "id": 4,
+    "title": "Brick City Skyline",
+    "imageUrl": "https://i.ytimg.com/vi/FNf8mHyQxGk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSYytoamiWOR4j0ImSePwQq54Z7g",
+    "author": "SkylineBuilder",
+    "description": "A LEGO city skyline captured in this awesome shot."
+  },
+  {
+    "id": 5,
+    "title": "Jungle Explorer",
+    "imageUrl": "http://ideascdn.lego.com/media/generate/lego_ci/f817ea01-84d6-4b71-8567-c27adb2ec92d/original:0:0/webp",
+    "author": "BrickExplorer",
+    "description": "An adventurous jungle build that sparks imagination."
+  }
+]

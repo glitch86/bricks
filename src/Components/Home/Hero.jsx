@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="hero min-h-[90vh] bg-base-200 my-7 rounded-2xl">
@@ -15,20 +17,22 @@ export default function Hero() {
         </div>
 
         {/* Text Content */}
-        <div className="max-w-xl">
-          <h1 className="text-5xl font-extrabold leading-tight">
+        <div className="max-w-fit">
+          <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
             Build Your <span className="text-primary">Imagination</span>
             <br /> Brick by Brick
           </h1>
 
-          <p className="py-6 text-base-content/80">
+          <p className="py-6 text-sm text-base-content/80">
             <strong>Bricks</strong> is your ultimate LEGO-inspired playground.
             Discover creative sets, design your own worlds, and bring ideas to
-            life—one block at a time.
+            life one block at a time.
           </p>
 
           <div className="flex gap-4">
-            <button className="btn btn-primary btn-lg">Explore Sets</button>
+            <Link href={"/products"} className="btn btn-primary btn-lg">
+              Explore Sets
+            </Link>
             <button className="btn btn-outline btn-lg">Build Online</button>
           </div>
 

@@ -30,26 +30,23 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Products</a>
-                <a>Item 3</a>
+                <NavLink href={"/products"}>Products</NavLink>
               </li>
             </ul>
           </div>
-          <Link href={'/'}>BRICKS</Link>
+          <Link href={"/"}>BRICKS</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink href={"/products"}>Products</NavLink>
             </li>
-
-            <li>
-              <a>Item 3</a>
-            </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn btn-primary" href={"/login"}>Login</Link>
+          <Link className="btn btn-primary" href={"/login"}>
+            Login
+          </Link>
         </div>
       </div>
     </div>
